@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Doctors - E-Clinic</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+<!--    <link  th:href="@{/css/style.css}" rel="stylesheet">-->
+    </head>
+<body>
+
+<div th:replace="homepage/navbar::navbar"></div>
+<!--<div th:replace="homepage/featuredDoctors::featuredDoctors"></div>-->
+
+
+<section class="doctors-section py-5">
+    <div class="container">
+        <h2 class="mb-4 fw-bold text-primary text-center">Meet Our Doctors</h2>
+        <div class="row g-4 justify-content-center">
+
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm border-0 text-center">
+
+                    <img th:src="@{/images/doctor1.jpg}" class="card-img-top rounded-circle mx-auto mt-4" alt="Dr. Sarah Lee" style="width:150px; height:150px; object-fit:cover;">
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Dr. Ramesh Thapa</h5>
+                        <p class="text-muted mb-1">Cardiologist</p>
+                        <p class="card-text">Experienced heart specialist dedicated to providing compassionate cardiac care and advanced treatments.</p>
+                        <a href="mailto:sarah.lee@eclinic.com" class="btn btn-primary rounded-pill px-4 mt-3">Contact</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm border-0 text-center">
+                    <img th:src="@{/images/doctor2.jpg}" class="card-img-top rounded-circle mx-auto mt-4" alt="Dr. James Wong" style="width:150px; height:150px; object-fit:cover;">
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Dr. Anjali Sharma</h5>
+                        <p class="text-muted mb-1">Dentist</p>
+                        <p class="card-text">Skilled dental professional offering comprehensive dental care with a focus on patient comfort.</p>
+                        <a href="mailto:james.wong@eclinic.com" class="btn btn-primary rounded-pill px-4 mt-3">Contact</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm border-0 text-center">
+                    <img th:src="@{/images/doctor3.jpg}"  class="card-img-top rounded-circle mx-auto mt-4" alt="Dr. Maria Gomez" style="width:150px; height:150px; object-fit:cover;">
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Dr. Ram Yadav</h5>
+                        <p class="text-muted mb-1">Physiotherapist</p>
+                        <p class="card-text">Dedicated to helping patients recover mobility and improve quality of life through tailored therapy.</p>
+                        <a href="mailto:maria.gomez@eclinic.com" class="btn btn-primary rounded-pill px-4 mt-3">Contact</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm border-0 text-center">
+                    <img th:src="@{/images/doctor4.jpg}"  class="card-img-top rounded-circle mx-auto mt-4" alt="Dr. Maria Gomez" style="width:150px; height:150px; object-fit:cover;">
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Dr. Srijana Bhandari</h5>
+                        <p class="text-muted mb-1">Physiotherapist</p>
+                        <p class="card-text">Dedicated to helping patients recover mobility and improve quality of life through tailored therapy.</p>
+                        <a href="mailto:maria.gomez@eclinic.com" class="btn btn-primary rounded-pill px-4 mt-3">Contact</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm border-0 text-center">
+                    <img th:src="@{/images/doctor5.jpg}"  class="card-img-top rounded-circle mx-auto mt-4" alt="Dr. Maria Gomez" style="width:150px; height:150px; object-fit:cover;">
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Dr. Suresh Adhikary</h5>
+                        <p class="text-muted mb-1">Physiotherapist</p>
+                        <p class="card-text">Dedicated to helping patients recover mobility and improve quality of life through tailored therapy.</p>
+                        <a href="mailto:maria.gomez@eclinic.com" class="btn btn-primary rounded-pill px-4 mt-3">Contact</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm border-0 text-center">
+                    <img th:src="@{/images/doctor6.jpg}"  class="card-img-top rounded-circle mx-auto mt-4" alt="Dr. Maria Gomez" style="width:150px; height:150px; object-fit:cover;">
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Dr. Kavita Joshi</h5>
+                        <p class="text-muted mb-1">Physiotherapist</p>
+                        <p class="card-text">Dedicated to helping patients recover mobility and improve quality of life through tailored therapy.</p>
+                        <a href="mailto:maria.gomez@eclinic.com" class="btn btn-primary rounded-pill px-4 mt-3">Contact</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<div th:replace="homepage/footer::footer"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

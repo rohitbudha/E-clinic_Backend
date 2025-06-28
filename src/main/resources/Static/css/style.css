@@ -1,0 +1,198 @@
+/* Hero Section */
+.hero-section {
+  background-color: #f8f9fa;
+  padding: 60px 0;
+}
+
+.hero-section h1 span {
+  color: #0d6efd; /* Bootstrap Primary */
+}
+
+.get-started-btn {
+  border-radius: 30px;
+  padding: 10px 25px;
+}
+
+/* Modern Footer */
+footer {
+  background-color: #0d6efd;
+  color: white;
+  padding: 60px 0 20px; /* Top padding increased for spacious look */
+  font-size: 0.95rem;
+}
+
+footer h5 {
+  font-weight: 600;
+}
+
+footer p,
+footer a {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+footer a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #ffc107; /* Bootstrap warning color for hover highlight */
+  text-decoration: underline;
+}
+
+.footer-links a {
+  color: #ffffffcc;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+/* Social Icons */
+footer .bi {
+  font-size: 1.2rem;
+  transition: transform 0.2s ease;
+}
+
+footer .bi:hover {
+  transform: scale(1.2);
+  color: #ffc107;
+}
+
+/* Responsive tweaks */
+@media (max-width: 767.98px) {
+  footer {
+    text-align: center;
+  }
+
+  .footer-links {
+    margin-top: 10px;
+  }
+}
+.services-section .card:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
+}
+
+.offers-section h2 {
+  color: #fff;
+}
+.doctors-section {
+  background-color: #f8f9fa;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.doctors-section h2 {
+  color: #0d6efd; /* Bootstrap primary */
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+
+.doctors-section .card {
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.doctors-section .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 25px rgba(13, 110, 253, 0.3);
+}
+
+.doctors-section .card-img-top {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #0d6efd;
+  margin-top: -75px; /* lift the image a bit */
+  background-color: white;
+}
+
+.doctors-section .card-body {
+  padding-top: 60px;
+}
+
+.doctors-section .card-title {
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+
+.doctors-section .text-muted {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.doctors-section .btn {
+  border-radius: 30px;
+  padding: 10px 25px;
+  font-weight: 600;
+}
+.doctor-img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-top-left-radius: 0.375rem;
+    border-top-right-radius: 0.375rem;
+  }
+
+.carousel-img {
+  width: 100%;
+  max-width: 950px; /* doubled from 400px */
+  height: auto;
+  object-fit: contain;
+  border-radius: 0.75rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+.carousel-inner {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.carousel-caption {
+  bottom: 10px;
+}
+
+#carouselExampleIndicators .carousel-inner {
+  height: 400px;
+}
+
+
+#carouselExampleIndicators .carousel-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+
+.carousel-caption {
+  bottom: 90px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.carousel-caption h5,
+.carousel-caption p {
+  color: #fff;
+  margin-bottom: 0.3rem;
+}
+
+.logo-img {
+  width: 80px;        /* Slightly smaller for navbar */
+  height: auto;
+  display: block;
+  margin-right: 10px; /* Space between logo and brand text */
+  vertical-align: middle;
+}
+
+

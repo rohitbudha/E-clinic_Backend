@@ -1,0 +1,36 @@
+<div th:fragment="featuredDoctors" xmlns:th="http://www.w3.org/1999/xhtml">
+<section class="featured-doctors py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-5 fw-bold text-primary">Meet Our Experts</h2>
+    <div class="row g-4 justify-content-center">
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <img th:src="@{images/doctor1.jpg}" alt="Dr. John Doe" class="doctor-img" />
+          <div class="card-body text-center">
+            <h5 class="card-title">Dr. John Doe</h5>
+            <p class="card-text text-muted">Cardiologist</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <img th:src="@{images/doctor4.jpg}" alt="Dr. Mary Smith" class="doctor-img" />
+          <div class="card-body text-center">
+            <h5 class="card-title">Dr. Mary Smith</h5>
+            <p class="card-text text-muted">Pediatrician</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <img th:src="@{images/doctor3.jpg}" alt="Dr. David Lee" class="doctor-img" />
+          <div class="card-body text-center">
+            <h5 class="card-title">Dr. David Lee</h5>
+            <p class="card-text text-muted">Dentist</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</div>

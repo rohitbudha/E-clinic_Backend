@@ -1,0 +1,86 @@
+<div th:fragment="offers" xmlns:th=xmlns:th="http://www.thymeleaf.org">
+  <section class="offers-section py-5 text-white" style="background: linear-gradient(to right, #0d6efd, #6610f2);">
+  <div class="container text-center">
+    <h2 class="mb-4 fw-bold">Special Offers</h2>
+
+    <div id="specialOffersCarousel" class="carousel slide" data-bs-ride="carousel">
+
+      <!-- Indicators -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#specialOffersCarousel" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#specialOffersCarousel" data-bs-slide-to="1"></button>
+      </div>
+
+      <!-- Carousel Items -->
+      <div class="carousel-inner text-dark">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <div class="row g-4 justify-content-center">
+            <div class="col-md-4">
+              <div class="p-4 bg-white rounded shadow-sm h-100">
+                <i class="bi bi-gift fs-1 text-primary mb-3"></i>
+                <h5 class="fw-bold">Free First Check-up</h5>
+                <p>Get your first consultation completely free. New patients only!</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="p-4 bg-white rounded shadow-sm h-100">
+                <i class="bi bi-droplet-half fs-1 text-danger mb-3"></i>
+                <h5 class="fw-bold">20% Off Lab Tests</h5>
+                <p>Enjoy discounted rates on all lab diagnostics this month.</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="p-4 bg-white rounded shadow-sm h-100">
+                <i class="bi bi-tooth fs-1 text-info mb-3"></i>
+                <h5 class="fw-bold">Dental Cleaning Discount</h5>
+                <p>Save 15% on all dental cleaning services this season.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+          <div class="row g-4 justify-content-center">
+            <div class="col-md-4">
+              <div class="p-4 bg-white rounded shadow-sm h-100">
+                <i class="bi bi-hospital fs-1 text-success mb-3"></i>
+                <h5 class="fw-bold">Free Emergency Consultation</h5>
+                <p>Complimentary emergency consultation for registered patients.</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="p-4 bg-white rounded shadow-sm h-100">
+                <i class="bi bi-capsule fs-1 text-warning mb-3"></i>
+                <h5 class="fw-bold">Pharmacy Discount</h5>
+                <p>Get 10% off on all prescription medicines ordered online.</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="p-4 bg-white rounded shadow-sm h-100">
+                <i class="bi bi-camera-video fs-1 text-secondary mb-3"></i>
+                <h5 class="fw-bold">Free Telemedicine Session</h5>
+                <p>Book a free 15-minute telemedicine consultation with our specialists.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#specialOffersCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bg-dark rounded-circle p-2" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#specialOffersCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon bg-dark rounded-circle p-2" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+
+    </div>
+  </div>
+</section>
+</div>

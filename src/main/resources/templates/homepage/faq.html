@@ -1,0 +1,81 @@
+<div th:fragment="faq" xmlns:th="http://www.w3.org/1999/xhtml">
+  <div class="accordion w-100" id="basicAccordion">
+    <h2 class="text-center mb-5 fw-bold text-primary">Frequently Asked Questions</h2>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+          How do I book an appointment with a doctor?
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+           data-bs-parent="#basicAccordion">
+        <div class="accordion-body fs-6">
+          You can book an appointment by navigating to the "Appointments" section, selecting your doctor, and choosing a convenient time slot. A confirmation email will be sent to you after successful booking.
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Can I access my medical records online?
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+           data-bs-parent="#basicAccordion">
+        <div class="accordion-body fs-6">
+          Yes, once logged in, you can access your past appointments, prescriptions, and medical reports from the "My Records" section of your dashboard.
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          What should I do in case of an emergency?
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+           data-bs-parent="#basicAccordion">
+        <div class="accordion-body fs-6">
+          E-Clinic is not a substitute for emergency medical services. In case of an emergency, please visit the nearest hospital or call your local emergency number immediately.
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingFour">
+        <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          How do I register as a new patient?
+        </button>
+      </h2>
+      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+           data-bs-parent="#basicAccordion">
+        <div class="accordion-body fs-6">
+          Go to the "Patient Registration" section, fill in your personal and medical details, and submit the form. You’ll receive login credentials via email once approved.
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingFive">
+        <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+          Are my personal and medical details secure?
+        </button>
+      </h2>
+      <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+           data-bs-parent="#basicAccordion">
+        <div class="accordion-body fs-6">
+          Yes. We use industry-standard encryption and secure protocols to ensure your data is protected and only accessible by authorized personnel.
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>

@@ -1,0 +1,10 @@
+package com.appsoft.Eclinic_Backend.Repo;
+
+import com.appsoft.Eclinic_Backend.models.Appointment;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface AppointmentRepository extends JpaRepository<Appointment, Long> {
+
+}

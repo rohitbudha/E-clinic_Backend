@@ -1,0 +1,65 @@
+<div th:fragment="heroPlusCarasouel" xmlns:th=xmlns:th="http://www.thymeleaf.org">
+  <section class="hero-section py-5">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <!-- Left: Hero Text -->
+      <div class="col-lg-6 text-center text-lg-start mb-4 mb-lg-0">
+        <h1 class="display-4 fw-bold">Welcome to <br><span class="text-primary">E-Clinic</span></h1>
+        <p class="lead text-muted">Trusted healthcare services with expert doctors, available 24/7 online</p>
+        <a href="#" class="btn btn-primary get-started-btn">Get Started</a>
+      </div>
+
+      <!-- Right: Carousel -->
+      <div class="col-lg-6">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+
+          <!-- Indicators -->
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+          </div>
+
+          <!-- Slides -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img th:src="@{images/c1.jpg}" class="carousel-img img-fluid d-block mx-auto" alt="First slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Welcome to E-Clinic</h5>
+                <p>Your health is our priority.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img th:src="@{images/c2.jpg}" class="carousel-img img-fluid d-block mx-auto" alt="Second slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Qualified Doctors</h5>
+                <p>24/7 support and healthcare services.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img th:src="@{images/c3.jpg}" class="carousel-img img-fluid d-block mx-auto" alt="Third slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Book Appointments Online</h5>
+                <p>Fast and easy scheduling at your fingertips.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Controls -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+</div>
