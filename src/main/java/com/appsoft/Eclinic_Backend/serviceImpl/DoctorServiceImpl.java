@@ -41,7 +41,6 @@ public class DoctorServiceImpl implements DoctorService {
 
         Doctor savedDoctor = doctorRepository.save(doctor);
 
-        // Send email with plain password
         emailService.sendPasswordToDoctor(doctor.getEmail(), doctor.getName(), rawPassword);
 
         return savedDoctor;

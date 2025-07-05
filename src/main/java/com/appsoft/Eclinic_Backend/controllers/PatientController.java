@@ -36,7 +36,7 @@ public class PatientController {
         patientService.registerPatient(patient);
         model.addAttribute("successMessage", "Patient registered successfully!");
         model.addAttribute("patient", new Patient());
-        return "patients/register"; // Another HTML page or redirect
+        return "patients/register";
     }
 
 
@@ -44,13 +44,13 @@ public class PatientController {
 //    @GetMapping("/contact")
 //    public String contactPage() {
 //
-//        return "patients/contact"; // loads templates/contact.html
+//        return "patients/contact";
 //    }
 
     @GetMapping("/our-doctors")
     public String showDoctors() {
 
-        return "patients/doctor"; // loads templates/contact.html
+        return "patients/doctor";
     }
 
 
